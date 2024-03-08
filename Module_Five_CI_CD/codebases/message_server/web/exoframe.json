@@ -1,0 +1,10 @@
+{
+  "name": "alangardiner-message-web",
+  "domain": "alangardiner-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "alangardiner-message-database",
+    "POSTGRES_PASSWORD": "@alangardiner-postgres-password"
+  }
+}

@@ -1,0 +1,22 @@
+<Doctype HTML>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="" content=""/>
+            <script src=""></script>
+            <link rel="stylesheet" href=""/>
+            <title>My Albums</title>
+        </head>
+        <body>
+            <h1>Albums</h1>
+            {%for album in albums%}
+            Not passing test
+            <div><p>Title: {{album.title}}</p> <p>Released: {{album.release_year}}</p></div>
+            {% endfor %}
+            <!-- <ul>
+                {%for album in albums%}
+                    <li><a href = "/albums/{{album.id}}">{{album.title}}</a></li>
+                {% endfor %}
+            </ul> -->
+        </body>
+    </html>
